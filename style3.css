@@ -415,9 +415,6 @@ p {
 /* End Projects section */
 
 
-
-
-
 /* contact Section */
 #contact .contact {
 	flex-direction: column;
@@ -586,7 +583,8 @@ p {
 	
 	
 	
-	#photos {
+	
+#photos {
 		background-color:#ffffff;
 		padding: 100px 0;
 		text-align: center;
@@ -639,6 +637,8 @@ p {
 	  
 	  }
 	  
+	  
+
 	  
 
 
