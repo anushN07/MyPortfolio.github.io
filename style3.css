@@ -264,6 +264,10 @@ p {
 
 /* End Hero Section */
 
+
+
+
+
 /* About Section */
 #about .about {
 	flex-direction: column-reverse;
@@ -322,8 +326,6 @@ p {
 
 
 /* End About Section */
-
-
 /* Photos section */
 #photos {
 	background-color:#ffffff;
@@ -413,6 +415,10 @@ p {
 }
 
 /* End Projects section */
+
+
+
+
 
 
 /* contact Section */
