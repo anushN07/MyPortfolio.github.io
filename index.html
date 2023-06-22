@@ -4,11 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style3.css">
-  <title>My  Portfolio Website</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick.css">
+ <link rel="stylesheet" href="nod.css">
+
+  <title>My Portfolio Website</title>
 </head>
 
-<body>
+<body style="background-color: black;">
+
+
   <!-- Header -->
   <section id="header">
     <div class="header container">
@@ -24,8 +29,8 @@
           </div>
           <ul>
             <li><a href="#hero" data-after="Home">Home</a></li>
-            <li><a href="#about" data-after="about">about</a></li>
-        
+            <li><a href="#about" data-after="about">About</a></li>
+            <li><a href="#projects" data-after="projects">Projects</a></li>
             <li><a href="#photos" data-after="Photos">Photos</a></li>
             <li><a href="#contact" data-after="Contact">Contact</a></li>
           </ul>
@@ -35,8 +40,7 @@
   </section>
   <!-- End Header -->
 
-
-  <!-- Hero Section  -->
+  <!-- Hero Section -->
   <section id="hero">
     <div class="hero container">
       <div>
@@ -47,78 +51,85 @@
       </div>
     </div>
   </section>
-  <!-- End Hero Section  -->
+  <!-- End Hero Section -->
 
- 
- <!-- About Section -->
+  <!-- About Section -->
   <section id="about">
     <div class="about container">
       <div class="col-left">
         <div class="about-img">
-          <img src="myphoto.jpg" alt="img">
+          <img src="myphoto.jpg" alt="My Photo">
         </div>
       </div>
       <div class="col-right">
         <h1 class="section-title">Peek of <span>me</span></h1>
         <h2>Front End Developer</h2>
-        <p> I'm a self-proclaimed code artist who loves to create beautiful and functional web experiences. My passion for frontend development is fueled by my love for design, technology, and human connection. With every line of code, I strive to bring my unique perspective and creative energy to the web, transforming it into a canvas for imagination and innovation. When I'm not tinkering with code, you can find me exploring new places, meeting new people, or indulging in my love for coffee and music. I believe that life is an adventure, and I'm always eager to explore new ideas and possibilities. Whether you're a startup founder looking to create a killer website or a fellow developer looking for a creative collaborator, I'm always up for a challenge and ready to make magic happen on the web. Let's connect and create something beautiful together!"</p>
+        <p>
+I'm a passionate and experienced frontend developer with a knack for crafting captivating user experiences. As a frontend developer, I am well-versed in the latest frontend frameworks and libraries such as React. I have a solid grasp of HTML5, CSS3, JavaScript, Databases, Git, Python and AWS, enabling me to bring designs to life and ensure seamless cross-browser compatibility. I thrive in fast-paced environments, where my keen eye for detail and ability to meet tight deadlines shine.</p>
         <a href="https://www.dropbox.com/s/z2hbd0k7if3njd5/Anusha%20Resume.pdf?dl=0" download class="cta">Download Resume</a>
       </div>
     </div>
   </section>
- 
+  <!-- End About Section -->
 
+  <div id="projects">
+<h1>PROJECTS</h1>
+    <div class="container">
+      
+      <div class="project-container">
+        <div class="project">
+          <div class="project-details">
+            <h3>Search Image</h3>
+            <span class="technologies-used">Technologies Used: HTML, CSS, JavaScript</span>
+            <a href="https://anushn07.github.io/imagesearch/" class="view-project">View Project</a>
+          </div>
+        </div>
 
+        <div class="project">
+          <div class="project-details">
+            <h3>Weather app</h3>
+            <span class="technologies-used">Technologies Used: Html/css, javaScript,GitHub</span>
+            <a href="https://anushn07.github.io/Weather_app" class="view-project">View Project</a>
+          </div>
+        </div>
 
-
-  <!-- Projects Section -->
-  <section id="photos">
-    <div class="photos container">
-      <div class="photos-header">
-    
+        <!-- Add more projects here -->
+        <div class="project">
+          <div class="project-details">
+            <h3>QUIZ app</h3>
+            <span class="technologies-used">Technologies Used: HTML, CSS, JavaScript</span>
+            <a href="https://anushn07.github.io/quiz_app/" class="view-project">View Project</a>
+          </div>
+        </div>
+        <!-- End of additional projects -->
       </div>
-      <div class="all-photos">
-        <div class="photos-item">
-          <div class="photos-info">
-
-     <p></p>
-             <h1>My Photos</h1>
-            <h2>Nature is my Home</h2>
-            <p>Nature is my home, it means I feel a deep connection to the natural world.</p>
-          </div>
-          <div class="photos-img">
-            <img src="sunme.jpg" alt="img">
-          </div>
-        </div>
-        <div class="photos-item">
-          <div class="photos-info">
-           
-<p></p>
-            <h2>Cats are connoisseurs of comfort.</h2>
-            <p>My cat Subbi has always been my comfort place,my home,my best friend.In sorrows and happiness I seek her comfort and I feel they love you as much as you love them always</p>
-          </div>
-          <div class="photos-img">
-            <img src="cat.jpg" alt="img">
-          </div>
-        </div>
-        <div class="photos-item">
-          <div class="photos-info">
-          
-<p></p>
-            <h2>Life is what you make it</h2>
-            <p>Life is not predetermined or predetermined by fate, but rather it is a product of our own actions and decisions.  </p>
-          </div>
-          <div class="photos-img">
-            <img src="defines.jpg" alt="img">
-          </div>
-        </div>
-        </div>
-      </div>
+    </div>
   </section>
   <!-- End Projects Section -->
 
-  
-
+<div id="photos">
+<h1>My Photos</h1>
+  <div class="slider-container">
+    <div class="slider">
+      <div class="slider-item">
+        <img src="sunme.jpg" alt="Image 1">
+      </div>
+      <div class="slider-item">
+        <img src="cat.jpg" alt="Image 2">
+      </div>
+      <div class="slider-item">
+        <img src="be.jpg" alt="Image 3">
+      </div>
+      <div class="slider-item">
+        <img src="oh.jpg" alt="Image 4">
+      </div>
+      <div class="slider-item">
+        <img src="nat.jpg" alt="Image 5">
+      </div>
+      <!-- Add more slider items as needed -->
+    </div>
+  </div>
+</div>
   <!-- Contact Section -->
   <section id="contact">
     <div class="contact container">
@@ -127,26 +138,26 @@
       </div>
       <div class="contact-items">
         <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="icon"><img src="https://img.icons8.com/nolan/64/phone.png" alt="Phone"></div>
           <div class="contact-info">
             <h1>Phone</h1>
-            <h2>+91 9902557248</h2>
-            
+            <h2>+91-9902557248</h2>
           </div>
         </div>
         <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="icon"><img src="https://img.icons8.com/nolan/64/email.png" alt="Email"></div>
           <div class="contact-info">
             <h1>Email</h1>
-            
-            <h2>anunadageri375@gmail.com</h2>
+           
+<a href="mailto:anunadageri375@gmail.com"><h2>anunadageri375@gmail.com</h2></a>
+
           </div>
         </div>
         <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="icon"><img src="https://img.icons8.com/nolan/64/address.png" alt="Address"></div>
           <div class="contact-info">
-            <h1>Address</h1>
-            <h2>Bengaluru</h2>
+            <h1>Bengaluru</h1>
+            <h2>India</h2>
           </div>
         </div>
       </div>
@@ -154,28 +165,8 @@
   </section>
   <!-- End Contact Section -->
 
-  <!-- Footer -->
-  <section id="footer">
-    <div class="footer container">
-      <div class="brand">
-        <h1><span>A</span>nusha <span>N</span>adageri</h1>
-      </div>
-     
-      <div class="social-icon">
-        <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
-        </div>
-        <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
-
-        </div>
-        <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
-        </div>
-      </div>
-      <p>Copyright © 2020 Anusha B. All rights reserved</p>
-    </div>
-  </section>
-  <!-- End Footer -->
-  <script src="./app.js"></script>
+  <script src="nod.js"></script>
 </body>
+
+</html>
+
